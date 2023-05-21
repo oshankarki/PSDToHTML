@@ -113,6 +113,187 @@
     opacity: 0.5;
 }
 
-button {
-    width: 150px;
+.button_carousel {
+    width: 295px;
+    height: 65px;
+    border-radius: 3px;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.15);
+    background-color: #00bb9b;
+    margin-top: 20px;
 }
+
+.button_carousel p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+
+
+/* dnfjs */
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 44px;
+    letter-spacing: 0px;
+    line-height: 54px;
+    color: #506a85;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #506a85;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    opacity: 0.5;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    height: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.row i {
+    margin-right: 10px;
+    font-size: 40px;
+    color: #00bb9b;
+}
+
+.row h1 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.row p {
+    margin: 0;
+    margin-left: 60px;
+}
+
+.latest_works {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.text_latest {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text_latest h1 {
+    font-size: 44px;
+    line-height: 54px;
+    color: #506a85;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.latest_works p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.card-container {
+    display: flex;
+    margin-left: 220px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.container {
+    padding: 2px 16px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty_card {
+    height: 200px;
+    background-color: #00bb9b;
+}
+
+.dot {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 600px;
+}
+
+.dot_1,
+.dot_2,
+.dot_3 {
+    display: inline-block;
+}
+
+.getintouch {
+    text-align: center;
+    padding: 20px;
+}
+
+.getintouch .item {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #506a85;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.card-footer {
+    display: flex;
+    margin-left: 120px;
+}
+
+.card-foot {
+    width: 150px;
+    background-color: #00bb9b;
+    margin-left: 5px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+
+/* Adjust the styles according to your needs */
