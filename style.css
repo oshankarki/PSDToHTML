@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 * {
     box-sizing: 0;
     margin: 0;
@@ -218,7 +219,6 @@ h1 {
 }
 
 .latest_works p {
-    font-size: 16px;
     color: #666666;
 }
 
@@ -236,9 +236,13 @@ h1 {
 
 .container {
     padding: 2px 16px;
-    height: 80px;
     align-items: center;
     justify-content: center;
+}
+
+.identity {
+    text-align: center;
+    font-size: 13px;
 }
 
 .empty_card {
@@ -270,29 +274,97 @@ h1 {
 
 .footer {
     background-color: #506a85;
-    height: 500px;
+    height: 300px;
     padding: 20px;
+}
+
+.footer_container {
+    height: 300px;
+    background-color: #506a85;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer div {
-    flex-basis: 25%;
-    text-align: center;
+    color: #fff;
+    font-family: 'Lato';
 }
 
 .card-footer {
     display: flex;
-    margin-left: 120px;
 }
 
 .card-foot {
-    width: 150px;
+    width: 80px;
     background-color: #00bb9b;
     margin-left: 5px;
     height: 70px;
     margin-top: 5px;
+}
+
+.whoweare {
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.works {
+    height: 300px;
+    width: 300px;
+}
+
+.getin {
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.getin ul {
+    list-style: none;
+}
+
+.free_updates {
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #00bb9b;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.whoweare i {
+    color: #fff;
+}
+
+.footer_icon {
+    display: flex;
+}
+
+.footer_icon p {
+    margin-left: 10px;
 }
 
 
