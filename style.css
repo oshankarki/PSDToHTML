@@ -328,16 +328,23 @@ h1 {
 }
 
 .search-container {
+    margin-top: 10px;
     position: relative;
     display: inline-block;
 }
 
 .search-input {
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-radius: 4px;
     width: 250px;
     height: 30px;
+    background-color: #506a85;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.5;
 }
 
 .search-button {
@@ -365,6 +372,10 @@ h1 {
 
 .footer_icon p {
     margin-left: 10px;
+}
+
+p {
+    opacity: 0.5;
 }
 
 
